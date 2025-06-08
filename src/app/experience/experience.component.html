@@ -1,0 +1,48 @@
+<div class="experience-container">
+  <h2 class="section-title">Experience</h2>
+
+  <div class="experience-item" *ngFor="let exp of experiences">
+    <h3 class="position">{{ exp.position }}</h3>
+    <h4 class="company">{{ exp.company }}</h4>
+    <p class="duration">{{ exp.duration }}</p>
+    <ul class="details">
+      <li *ngFor="let point of exp.details">{{ point }}</li>
+    </ul>
+  </div>
+</div>
+
+
+<!-- <div class="experience-container">
+  <h2 class="section-title">Experience</h2>
+
+<div class="experience-item">
+    <h3 class="position">Systems Engineer</h3>
+    <h4 class="company">Tata Consultancy Services (TCS)</h4>
+    <p class="duration">July 2024 – Present</p>
+    <div class="details">
+  <ul class="details">
+    <li>Working in the insurance domain as a full-stack developer and AI/NLP contributor.</li>
+    <li>Collaborating across underwriting, claims, and EDI teams to improve customer-focused solutions.</li>
+    <li>Exploring AI integration opportunities in legacy modernization.</li>
+  </ul>
+</div>
+
+
+  <div class="experience-item">
+    <h3 class="position">Data Science Research Intern</h3>
+    <h4 class="company">Client-side Application</h4>
+    <p class="duration">January 2024 – June 2024</p>
+    <p class="details">
+      Engaged in AI/ML research with a focus on insurance-specific use cases. Contributed to model experimentation and data analysis pipelines, and documented insights for internal evaluation and deployment readiness.
+    </p>
+  </div>
+
+  <div class="experience-item">
+    <h3 class="position">Technical Content Writer</h3>
+    <h4 class="company">Medium</h4>
+    <p class="duration">2023 – Present</p>
+    <p class="details">
+      Writing insightful technical blogs focused on AI/ML, MLOps, and cloud-native tools. Sharing tutorials and deep dives to help developers and data scientists explore emerging technologies.
+    </p>
+  </div>
+</div> -->

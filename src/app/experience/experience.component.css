@@ -1,0 +1,53 @@
+.experience-container {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  max-width: 600px; /* match contact form width */
+  margin: auto;
+  /* background: #f0f4f8;  */
+  border-radius: 12px; /* match contact form border radius */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05); /* match contact form shadow */
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.experience-item {
+  margin-bottom: 1rem;
+  text-align: left;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f9f9f9;
+  padding: 0.75rem 1rem 1rem 1rem;
+  border-radius: 8px;
+}
+
+.position {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+  margin-top: 0.2rem;
+}
+
+.company {
+  font-size: 1rem;
+  /* color: #555; */
+  margin-bottom: 0.1rem;
+}
+
+.duration {
+  font-size: 0.9rem;
+  /* color: #888; */
+  margin-bottom: 0.5rem;
+}
+
+.details {
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: justify;
+} 
